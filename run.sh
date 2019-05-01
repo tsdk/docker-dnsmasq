@@ -15,4 +15,4 @@ docker=dnsmasq
 ip=192.168.82.254
 gw=192.168.82.2
 sudo env "PATH=$PATH" pipework br0 $docker $ip/24@$gw
-docker exec -it $docker sh 
+echo "docker exec -it $docker sh"
